@@ -1,0 +1,283 @@
+html,body {
+  margin: 0;
+  font-family: Lato,sans-serif;
+  background-color: #1c1c1c;
+}
+
+
+/* STRUCTURE */
+
+.container {
+	padding: 5px;
+	width: 960px;
+	margin: 20px auto;
+	text-align: center;
+	color: #fff;
+}
+.col-1 {
+	width: 290px;
+	float: left;
+	padding: 5px 15px;
+}
+
+.col-2 {
+	width: 294px; /* Account for margins + border values */
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+.col-3 {
+	width: 270px;
+	padding: 5px 15px;
+	float: left;
+}
+
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+	
+	.container {
+		width: 94%;
+	}
+	.col-1 {
+		width: 41%;
+		padding: 1% 4%;
+	}
+	.col-2 {
+		width: 41%;
+		padding: 1% 4%;
+		margin: 0px 0px 5px 5px;
+		float: right;
+	}
+	
+	.col-3 {
+		clear: both;
+		padding: 1% 4%;
+		width: auto;
+		float: none;
+	}
+
+	
+}
+
+/* for 700px or less */
+@media screen and (max-width: 600px) {
+
+	.col-1 {
+		width: auto;
+		float: none;
+	}
+	
+	.col-2 {
+		width: auto;
+		float: none;
+		margin-left: 0px;
+	}
+	
+	.col-3 {
+		width: auto;
+		float: none;
+	}
+
+}
+ 
+
+.col-1 h2, .col-2 h2, .col-3 h2, .supporting .container h1, .footer1 .container h1  {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #d6d6d6;
+}
+ 
+.supporting .container p {
+  font-size: 1.1em;
+
+} 
+ 
+ 
+.space {
+  padding: 10px;
+
+}  
+  
+  
+
+.main {
+  background: url(http://idesigns.xyz/portfolio/justgo/images/main.jpg)
+  center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  background-attachment: fixed;
+  
+}
+
+
+.main .container {
+  position: relative;
+  margin: 0 auto;
+  top: 90px;
+}
+
+
+.main .container h1 {
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 7em;
+  text-shadow: 15px 8px 15px #000;
+  margin: 0px 0px 40px 0px;
+  
+}
+
+
+
+.btn {
+ text-align:center;
+  opacity: 1;
+  background: #1c1c1c;
+  padding: 15px 25px 15px 25px;
+  color:#fff;
+  margin-bottom: 80px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.2em;
+  border-radius:2px;
+  transition: 1.1s;
+  border: solid 1px #fff;
+
+} 
+ 
+ 
+.btn:hover {
+  text-align:center;
+  opacity: 1;
+  background: #fff;
+  padding: 15px 25px 15px 25px;
+  color:#1c1c1c;
+  margin-bottom: 80px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.2em;
+  border-radius:2px;  
+  transition: 1.1s;
+  border: solid 1px #1c1c1c;
+
+  }
+
+
+
+
+
+  
+.feature {
+  background: url(http://idesigns.xyz/portfolio/justgo/images/supporting.jpg)
+  center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  background-attachment: fixed;
+
+}  
+
+
+
+.feature .container {
+  position: relative;
+  margin: 0 auto;
+  top: 100px;
+}
+
+
+.feature .container h1 {
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 4.6em;
+  text-shadow: 6px 5px 6px #000;
+  letter-spacing: -6px;
+}
+
+
+.supporting .container {
+  padding-bottom: 20px;
+}
+
+
+
+
+
+.footer {
+  background: url(http://idesigns.xyz/portfolio/justgo/images/footer.jpg)
+  center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  background-attachment: fixed;  
+
+}
+
+
+.footer .container {
+  position: relative;
+  margin: 0 auto;
+  top: 100px;
+
+}
+
+
+.footer .container h1 {
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 4.6em;
+  text-shadow: 6px 5px 6px #000;
+  letter-spacing: -6px;
+}
+
+
+.footer1 .container {
+  padding-bottom: 30px;
+
+}
+
+
+.footer2 .container {
+  background-color: #d6d6d6;
+  left: 0;
+  right: 0;
+  margin: 0;
+  bottom: 0; 
+  width: 100%;
+}
+
+.footer2 .container p {
+  font-size: 0.9em;
+  margin-top: 15px;
+  color: #000;
+  font-weight: 500;
+}
+
+
+
+.clearfix {
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
